@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Test runner script for recursive-descent-ast-vm
+
+# Compile the project
+make
+
+# Run parser tests
+make test_parser
+
+# Run VM tests
+make test_vm

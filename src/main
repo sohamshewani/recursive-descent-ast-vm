@@ -1,0 +1,8 @@
+// src/main.cpp
+
+#include <iostream>
+
+int main() {
+	std::cout << "Main entry point for recursive-descent-ast-vm" << std::endl;
+	return 0;
+}
